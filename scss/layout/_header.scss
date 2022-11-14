@@ -1,10 +1,10 @@
 .app-header {
     @include displayFlex();
     padding: 0.5rem;
-    width: calc(100% - 1rem);
 
     .userprofile,
-    .newalbum {
+    .newalbum,
+    .goback {
         @include displayFlex();
         padding: 0.75rem;
         text-decoration: none;
@@ -14,16 +14,25 @@
         i {
             font-size: 1.25rem;
         }
+
+        &.active {
+            background-color: $color-info !important;
+        }
     }
 
     .userprofile {
         color: $color-white;
-        background-color: $color-info;
+        background-color: rgba($color-white, 0.5);
     }
 
     .newalbum {
         color: $color-white;
         background-color: $color-success;
+    }
+
+    .goback {
+        color: $color-white;
+        background-color: rgba($color-white, 0.25);
     }
 
     .pagetitle {

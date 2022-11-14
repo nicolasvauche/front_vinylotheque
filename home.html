@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Connecte-toi à ta Vinylothèque</title>
+    <title>Ta Vinylothèque</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,11 +25,11 @@
   </head>
   <body class="homepage">
     <header class="app-header">
-      <a href="./" class="userprofile">
+      <a href="profile_user.html" class="userprofile">
         <i class="fa-solid fa-user"></i>
       </a>
       <h1 class="pagetitle">On écoute ça ?</h1>
-      <a href="#" class="newalbum">
+      <a href="new.html" class="newalbum">
         <i class="fa-solid fa-plus"></i>
       </a>
     </header>
@@ -37,18 +37,19 @@
     <main class="app-main">
       <figure class="app-image">
         <img
-          src="assets/img/album_seventh.jpg"
-          alt="Iron Maiden - Seventh Son Of A Seventh Son"
+          src="assets/img/loading.png"
+          id="cover"
+          alt="Chargement…"
         />
       </figure>
 
       <section>
         <div class="app-controls">
           <div class="infos">
-            <h2>Iron Maiden</h2>
-            <h3>Seventh Son Of A Seventh Son</h3>
-            <p>1988</p>
-            <p class="category">Hard Rock</p>
+            <h2 id="artist">Iron Maiden</h2>
+            <h3 id="album">Seventh Son Of A Seventh Son</h3>
+            <p id="year">1988</p>
+            <p id="category" class="category">Hard Rock</p>
           </div>
 
           <div class="control left">

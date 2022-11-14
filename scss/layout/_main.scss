@@ -1,10 +1,12 @@
 .app-main {
-    @include displayFlex(center, space-between, column);
+    @include displayGrid(null);
     padding: 0.5rem;
-    width: calc(100% - 1rem);
-    flex: 1;
+
+    & > figure {
+        align-self: center;
+    }
 
     section {
-        width: 100%;
+        align-self: flex-end;
     }
 }

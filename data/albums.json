@@ -1,0 +1,37 @@
+[
+  {
+    "cover": "album_kick.jpg",
+    "artist": "Kate Bush",
+    "title": "The Kick Inside",
+    "year": "1978",
+    "category": "Pop Rock"
+  },
+  {
+    "cover": "album_animals.jpg",
+    "artist": "Pink Floyd",
+    "title": "Animals",
+    "year": "1977",
+    "category": "Rock Progressif"
+  },
+  {
+    "cover": "album_wall.jpg",
+    "artist": "Pink Floyd",
+    "title": "The Wall",
+    "year": "1979",
+    "category": "Rock Progressif"
+  },
+  {
+    "cover": "album_killers.jpg",
+    "artist": "Iron Maiden",
+    "title": "Killers",
+    "year": "1981",
+    "category": "Heavy Metal"
+  },
+  {
+    "cover": "album_seventh.jpg",
+    "artist": "Iron Maiden",
+    "title": "Seventh Son Of A Seventh Son",
+    "year": "1988",
+    "category": "Heavy Metal"
+  }
+]

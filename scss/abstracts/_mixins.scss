@@ -5,3 +5,10 @@
     justify-content: $justify;
     gap: $gap;
 }
+
+@mixin displayGrid($columns: 1fr, $rows: null, $gap: null) {
+    display: grid;
+    grid-template-columns: $columns;
+    grid-template-rows: $rows;
+    grid-gap: $gap;
+}
