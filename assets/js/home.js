@@ -18,7 +18,7 @@ window.addEventListener('DOMContentLoaded', () => {
       artistElt.innerText = randomItem.artist
 
       const albumElt = document.getElementById('album')
-      albumElt.innerText = randomItem.album
+      albumElt.innerText = randomItem.title
 
       const yearElt = document.getElementById('year')
       yearElt.innerText = randomItem.year
@@ -64,12 +64,14 @@ window.addEventListener('DOMContentLoaded', () => {
 
     if (Math.abs(xDiff) > Math.abs(yDiff)) {
       if (xDiff > 0) {
-        window.alert('On écoute !')
+        if (window.confirm('On écoute ?')) {
+          window.alert('On écoute !')
+          window.location.reload()
+        }
       } else {
         // window.alert('On zappe')
+        window.location.reload()
       }
-
-      window.location.reload()
     }
   }
 

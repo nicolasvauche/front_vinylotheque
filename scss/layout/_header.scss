@@ -3,7 +3,8 @@
     padding: 0.5rem;
 
     .userprofile,
-    .newalbum {
+    .newalbum,
+    .goback {
         @include displayFlex();
         padding: 0.75rem;
         text-decoration: none;
@@ -23,6 +24,11 @@
     .newalbum {
         color: $color-white;
         background-color: $color-success;
+    }
+
+    .goback {
+        color: $color-white;
+        background-color: rgba($color-white, 0.25);
     }
 
     .pagetitle {
