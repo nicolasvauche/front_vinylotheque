@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Connecte-toi à ta Vinylothèque</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/b916232238.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="assets/css/styles.min.css" />
+
+    <script src="assets/js/login.js" defer></script>
+  </head>
+  <body class="loginpage">
+    <header class="app-header">
+      <h1 class="pagetitle">Connecte-toi</h1>
+    </header>
+
+    <main class="app-main">
+      <figure class="app-image">
+        <img src="assets/img/vinyle.png" alt="Vinyle" />
+        <i class="fa-solid fa-house-lock"></i>
+      </figure>
+      
+      <form class="app-form">
+        <div class="form-group">
+          <label for="userEmail" class="required">Adresse e-mail</label>
+          <input
+            type="email"
+            name="email"
+            id="userEmail"
+            class="form-control"
+            placeholder="ex: sophie@dupont.com"
+            required
+            aria-required="true"
+          />
+          <p class="error">Ce compte n'existe pas</p>
+        </div>
+        <div class="form-group">
+          <label for="userPassword" class="required">Mot de passe</label>
+          <input
+            type="password"
+            name="password"
+            id="userPassword"
+            class="form-control"
+            required
+            aria-required="true"
+          />
+          <p class="error">Mot de passe invalide</p>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="app-btn">
+            Je me connecte
+            <i class="fas fa-angles-right"></i>
+          </button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

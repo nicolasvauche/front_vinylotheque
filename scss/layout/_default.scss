@@ -1,0 +1,11 @@
+html {
+    body {
+        @include displayFlex(center, space-between, column);
+        height: 100vh;
+        overflow: hidden;
+        font-family: $font-primary;
+        text-align: center;
+        color: $color-black;
+        background-color: $color-white;
+    }
+}

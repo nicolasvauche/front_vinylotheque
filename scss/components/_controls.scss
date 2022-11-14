@@ -1,0 +1,75 @@
+.app-controls {
+    @include displayFlex(flex-end, space-between);
+    flex-wrap: wrap;
+    padding: 1rem;
+
+    border: 2px solid rgba($color-black, 0.25);
+    border-radius: 0.25rem;
+
+    .control {
+        span {
+            display: block;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+
+        i {
+            font-size: 2.5rem;
+        }
+
+        &.left {
+            color: $color-warning;
+        }
+
+        &.right {
+            color: $color-success;
+        }
+    }
+
+    .infos {
+        width: 100%;
+        font-weight: bold;
+
+        p {
+            &.category {
+                padding: 0.25rem 0.5rem;
+                color: $color-white;
+                background-color: rgba($color-info, 1);
+                border-radius: 1.5rem;
+            }
+        }
+    }
+
+    .like {
+        padding: 0 0.25rem;
+        text-decoration: none;
+        color: rgba($color-black, 0.5);
+        background-color: $color-white;
+
+        i {
+            font-size: 4rem;
+
+            &.fa-regular {
+                display: inline;
+            }
+
+            &.fa-solid {
+                display: none;
+            }
+        }
+
+        &.on {
+            color: $color-danger;
+
+            i {
+                &.fa-regular {
+                    display: none;
+                }
+
+                &.fa-solid {
+                    display: inline;
+                }
+            }
+        }
+    }
+}
