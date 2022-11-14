@@ -1,11 +1,10 @@
 html {
     body {
-        @include displayFlex(center, space-between, column);
+        @include displayGrid(1fr, auto 1fr);
         height: 100vh;
-        overflow: hidden;
         font-family: $font-primary;
         text-align: center;
-        color: $color-black;
-        background-color: $color-white;
+        color: $color-white;
+        background-color: $color-black;
     }
 }

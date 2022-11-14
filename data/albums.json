@@ -1,0 +1,23 @@
+[
+  {
+    "cover": "album_kick.jpg",
+    "artist": "Kate Bush",
+    "album": "The Kick Inside",
+    "year": "1978",
+    "category": "Pop Rock"
+  },
+  {
+    "cover": "album_wall.jpg",
+    "artist": "Pink Floyd",
+    "album": "The Wall",
+    "year": "1979",
+    "category": "Rock Progressif"
+  },
+  {
+    "cover": "album_seventh.jpg",
+    "artist": "Iron Maiden",
+    "album": "Seventh Son Of A Seventh Son",
+    "year": "1988",
+    "category": "Heavy Metal"
+  }
+]

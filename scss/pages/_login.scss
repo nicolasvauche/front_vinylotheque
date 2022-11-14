@@ -10,8 +10,8 @@
     .app-main {
         .app-image {
             img {
-                width: 70vw;
-                height: 70vw;
+                width: calc(100vh - 23rem);
+                height: calc(100vh - 23rem);
             }
 
             i {
