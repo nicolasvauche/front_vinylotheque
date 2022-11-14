@@ -14,11 +14,15 @@
         i {
             font-size: 1.25rem;
         }
+
+        &.active {
+            background-color: $color-info !important;
+        }
     }
 
     .userprofile {
         color: $color-white;
-        background-color: $color-info;
+        background-color: rgba($color-white, 0.5);
     }
 
     .newalbum {

@@ -1,0 +1,14 @@
+.profilepage {
+    .app-main {
+        .logout {
+            @include displayFlex(center, center, column);
+            text-decoration: none;
+        }
+
+        .app-form {
+            .infos {
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+}
