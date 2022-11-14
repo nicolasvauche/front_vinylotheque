@@ -1,0 +1,6 @@
+{
+  "name": "Ta Vinylothèque en ligne",
+  "short_name": "Vinylothèque",
+  "start_url": "index.html",
+  "display": "standalone"
+}
