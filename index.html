@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Connecte-toi à ta Vinylothèque</title>
+    <title>Ta Vinylothèque</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,52 +21,60 @@
 
     <link rel="stylesheet" href="assets/css/styles.min.css" />
 
-    <script src="assets/js/login.js" defer></script>
+    <script src="assets/js/Drog.js" defer></script>
+    <script src="assets/js/index.js" defer></script>
   </head>
-  <body class="loginpage">
-    <header class="app-header">
-      <h1 class="pagetitle">Connecte-toi</h1>
-    </header>
+  <body>
+    <main>
+      <section>
+        <div class="thumbnails">
+          <div class="thumbnail">
+            <figure>
+              <img
+                src="assets/img/album_animals.jpg"
+                alt="Pink Floyd - Animals (1977)"
+              />
+            </figure>
 
-    <main class="app-main">
-      <figure class="app-image">
-        <img src="assets/img/vinyle.png" alt="Vinyle" />
-        <i class="fa-solid fa-house-lock"></i>
-      </figure>
-      
-      <form class="app-form">
-        <div class="form-group">
-          <label for="userEmail" class="required">Adresse e-mail</label>
-          <input
-            type="email"
-            name="email"
-            id="userEmail"
-            class="form-control"
-            placeholder="ex: sophie@dupont.com"
-            required
-            aria-required="true"
-          />
-          <p class="error">Ce compte n'existe pas</p>
+            <div class="details">
+              <div class="infos">
+                <h3>Animals</h3>
+                <h4>Pink Floyd</h4>
+                <h5>1977</h5>
+              </div>
+
+              <div class="actions">
+                <a href="#">
+                  <i class="fas fa-heart"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="thumbnail" id="suggestedAlbum" draggable="true">
+            <figure>
+              <img
+                src="assets/img/album_seventh.jpg"
+                alt="Iron Maiden - Seventh Son Of A Seventh Son (1988)"
+              />
+            </figure>
+
+            <div class="details">
+              <div class="infos">
+                <h3>Iron Maiden</h3>
+                <h4>Seventh Son Of A Seventh Son</h4>
+                <h5>1988</h5>
+              </div>
+
+              <div class="actions">
+                <a href="#">
+                  <i class="fas fa-heart"></i>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="form-group">
-          <label for="userPassword" class="required">Mot de passe</label>
-          <input
-            type="password"
-            name="password"
-            id="userPassword"
-            class="form-control"
-            required
-            aria-required="true"
-          />
-          <p class="error">Mot de passe invalide</p>
-        </div>
-        <div class="form-group">
-          <button type="submit" class="app-btn">
-            Je me connecte
-            <i class="fas fa-angles-right"></i>
-          </button>
-        </div>
-      </form>
+      </section>
     </main>
   </body>
 </html>
